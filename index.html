@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Radu Shorts Bot is a personal desktop tool for creating and uploading educational YouTube Shorts.">
+  <title>Radu Shorts Bot | Home</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, Segoe UI, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: #090d1b; color: #f4f6ff; }
+    a { color: #a8e9ff; }
+    .wrap { max-width: 860px; margin: auto; padding: 0 24px; }
+    header { padding: 26px 0; border-bottom: 1px solid #28304d; }
+    .nav { display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap; }
+    .brand { font-size: 19px; font-weight: 780; letter-spacing: -.4px; text-decoration: none; color: #fff; }
+    .pill { color: #bceae7; background: #0e3135; border: 1px solid #216366; border-radius: 999px; padding: 8px 13px; font-size: 12px; letter-spacing: .6px; text-transform: uppercase; font-weight: 750; }
+    main { padding: 80px 0 64px; }
+    h1 { font-size: clamp(40px, 7vw, 66px); line-height: 1.07; letter-spacing: -2px; margin: 18px 0 22px; }
+    h2 { margin-top: 0; font-size: 22px; }
+    p { color: #c3cbe1; font-size: 17px; line-height: 1.7; }
+    .lead { max-width: 690px; font-size: 19px; }
+    .accent { background: linear-gradient(110deg, #66e0e5, #a8a4ff); color: transparent; background-clip: text; }
+    .cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(235px,1fr)); gap: 18px; margin-top: 48px; }
+    article { padding: 25px; background: #141c31; border: 1px solid #2a3654; border-radius: 18px; }
+    article p { font-size: 15px; margin-bottom: 0; }
+    .note { margin-top: 34px; padding: 18px 22px; border: 1px solid #286b73; background: #10282f; border-radius: 14px; }
+    .note p { margin: 0; font-size: 15px; }
+    footer { border-top: 1px solid #28304d; padding: 30px 0 45px; color: #9da9c8; font-size: 14px; }
+    footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 14px; }
+  </style>
+</head>
+<body>
+  <header><div class="wrap nav"><a class="brand" href="./">✦ Radu Shorts Bot</a><span class="pill">Personal desktop project</span></div></header>
+  <main class="wrap">
+    <span class="pill">Educational short-form video workflow</span>
+    <h1>Curiosity, made <span class="accent">short.</span></h1>
+    <p class="lead">Radu Shorts Bot is a personal tool that researches topics, prepares English-language educational quizzes and fact videos, and can upload the resulting Shorts to the Google account owner's YouTube channel after authorization.</p>
+    <div class="cards">
+      <article><h2>Discover</h2><p>Finds potential educational topics in public sources, including geography, science, nature and history. Source references are kept for review.</p></article>
+      <article><h2>Create</h2><p>Builds vertical, text-led Shorts using reusable visual materials, licensed music, animations and interactive questions—without voice-over.</p></article>
+      <article><h2>Upload</h2><p>Uses the YouTube Data API's <strong>youtube.upload</strong> permission to upload videos to the account explicitly authorized by the owner.</p></article>
+    </div>
+    <div class="note"><p><strong>Google account access:</strong> The app requests YouTube upload access only when the owner chooses to authorize it. It is run locally by the owner and is not an open service for other users. See the <a href="./privacy.html">Privacy Policy</a> for details and revocation instructions.</p></div>
+  </main>
+  <footer><div class="wrap"><span>© 2026 Radu Shorts Bot · Independent personal project, not affiliated with YouTube or Google.</span><a href="./privacy.html">Privacy Policy</a></div></footer>
+</body>
+</html>
